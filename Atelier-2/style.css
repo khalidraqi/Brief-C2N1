@@ -1,0 +1,164 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    margin:20px auto;
+    background-color:  hsl(229, 57%, 11%);
+    background-image: url(./images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position-y: 320px;
+}
+.box1{
+    width: 270px;
+    height: 150px;
+    background-color:  hsl(228, 56%, 26%);
+    border-radius: 8px 55px 8px 8px;
+}
+.box2{
+    color: #ffff;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 430px;
+    height: 100px;
+    background-color:  hsl(228, 56%, 26%);
+    border-radius: 5px;
+    padding: 10px;
+}
+.gbleft{
+    color:hsl(231deg 3% 59%);
+    font-size: 10px;
+    margin-left: 1px;
+}
+P{
+    margin-left: 25px;
+}
+.cantiner{
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    margin: 20px;
+}
+.folder{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    margin-left:20px;
+}
+.icon{
+    background-color: hsl(230deg 56% 11%);
+    width: 20%;
+    padding: 15px;
+    border-radius: 12%;
+}
+ .icon2{
+     margin-left: 10px;
+}
+ .icon3{
+    margin-left: 10px;
+}
+.progres{
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 90%;
+    height: 15px;
+    background-color:  hsl(229deg 55% 18%); ;
+    border-radius: 15px;
+}
+.proress_nt{
+    width: 70%;
+    height: 15px;
+    border-radius: 14px;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+.progress_nt-after{
+    margin-top: 25px;
+    margin-left: 95.5%;
+    width: 10px;
+    height: 10px;
+    border-radius: 25px;
+    background-color: #ffff;
+    POSITION: RELATIVE;
+    TOP: 2.5px;
+}
+.GB{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+    font-size: 10px ;
+}
+.left{
+    color: black;
+    background-color: hsl(0deg 0% 100%);
+    width: 180px;
+    height: 40px;
+    position: relative;
+    bottom: 100px;
+    left: 220px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+}
+strong{
+    margin-right:10px ;
+    font-size: 30px;
+}
+span{
+    position: relative;
+    top: 3px;
+    right: 5px;
+}
+.triengle{
+    position: relative;
+    bottom: 109px;
+    left: 380px;
+    width: 0;
+    height: 0;
+    border-top: 30px solid hsl(0deg 0% 100%);
+    border-left: 20px solid transparent;
+}
+img{
+    transform: scale(1,0.8);
+    }
+@media(max-width:700px){
+    .cantiner{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 150px;
+    }
+.triengle{
+    display: none;
+}
+.box2{
+    margin-left: 5px;
+    margin-top: 35px;
+    width: 250px; 
+}
+.left{
+    position: relative;
+    top: 40px;
+    left: 22px;
+}
+body{
+    background-image: url(./images/bg-mobile.png);
+    background-repeat: no-repeat;
+    background-position-y: 0px ;
+    background-size: 100%;
+}
+P{
+    font-size: 11px;
+}
+.progress_nt-after {
+    margin-top: 25px;
+    margin-left: 92%;
+    width: 10px;
+    height: 10px;
+    border-radius: 25px;
+    background-color: #ffff;
+    POSITION: RELATIVE;
+    TOP: 2.5px;
+}

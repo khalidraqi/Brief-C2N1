@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:  hsl(210, 46%, 95%);
+    width: 85%;
+    margin: 20px auto;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.continer{
+    margin-bottom: 5px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-gap: 10px;
+    grid-template-areas:"box1 box1 box2 box3 "
+    "box4 box5 box5 box3";
+}
+div{
+    border-radius: 15px;
+    padding: 20px;
+    padding-bottom: 10%;  
+}
+.boxA{
+    color:  hsl(0, 0%, 100%) ;
+    grid-area: box1;
+    background-color: hsl(263, 55%, 52%) ;
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-size: 23%;
+    background-position-x: 330px;
+}
+.top{
+    left: 10px;;
+}
+.bottom{
+    margin-left: 30px;
+}
+.boxB{
+    color:  hsl(0, 0%, 100%) ;
+    grid-area: box2;
+    background-color: hsl(217, 19%, 35%);
+}
+.boxC{
+    grid-area: box3;
+    background-color: hsl(0, 0%, 100%);
+}
+.boxD{
+    grid-area: box4;
+    background-color: hsl(0, 0%, 100%);
+}
+.boxE{
+    color:  hsl(0, 0%, 100%) ;
+    grid-area: box5;
+    background-color: hsl(219, 29%, 14%);
+}
+.bottom{
+    margin-left: 30px;
+}
+img{
+    border-radius: 50%;
+    position: relative;
+    left:10px;
+    height: 45px;
+    top: 15px;
+    box-sizing: 10px;
+    margin-left: 10px;
+    top: 11px
+}
+.dan{
+    border: 3px solid  hsl(0, 0%, 81%);
+}
+.pat{
+    border: 3px solid   hsl(263, 55%, 52%) ;
+}
+h3{
+    position: relative;
+    left: 80px;
+    bottom: 30px;
+    font-size:12px;
+}
+h4{
+    position: relative;
+    left: 80px;
+    bottom: 30px;
+    font-size: 11px; 
+    color:  hsl(0, 0%, 81%) ;
+}
+.top{
+   font-size: large;
+   margin-bottom: 30px; 
+   margin-left: 20px;
+}
+.bottom{
+    
+    font-size: 14px;
+    color:  hsl(0, 0%, 81%) ;
+    margin-left: 20px;
+}
+@media (max-width:600px){
+    .continer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 350px 290px 290px 350px 400px ;
+        grid-template-areas: "box1" "box2 " "box4" "box5" "box3" ;
+    }
+    .boxA{
+        background-position-x: 230px;
+        background-size: 33%;
+    }
+}
