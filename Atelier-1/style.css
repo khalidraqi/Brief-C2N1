@@ -146,10 +146,13 @@ p{
     font-size: 16px;
 }
 .nom1{
-    margin-left: -83px;
+    margin-left: -90px;
+}
+.nom12{
+    margin-left: -105px;
 }
 .nom13{
-    margin-left: -96px;
+    margin-left: -107px;
 }
 @media screen and (max-width:600px){
     body{
@@ -279,12 +282,12 @@ p{
         margin-top: 10px;
     }
     .nom1{
-        margin-left: -82px;
+        margin-left: -88px;
     }
     .nom13{
-        margin-left: -96px;
+        margin-left: -107px;
     }
     P{
-        font-size:120%;
+        font-size:103%;
     }
 }
